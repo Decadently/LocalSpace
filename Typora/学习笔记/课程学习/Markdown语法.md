@@ -112,3 +112,89 @@ end=>end: 处理结束
 start->info->setCache->end
 ```
 
+## LaTeX语法
+
+输入$$再回车
+**方程**
+$$
+x^2 + 2x + 5 + \sqrt x = 0
+$$
+**方程组**
+$$
+\begin{cases}
+x+y+z=10\\
+x+2y+3z=20\\
+x+4y+5z=30
+\end{cases}
+$$
+**求和**
+$$
+\sum_{i=1}^{n}
+ \sum_{i=1}^nx_i
+$$
+**连乘**
+$$
+\prod\limits_{i=1}^n
+$$
+**分数**
+$$
+\frac 1 5,
+\frac{x+1}{x^2}
+$$
+**乘除法**
+$$
+5 \times 6 = 30\\
+5 \cdot 6 = 30\\
+30 \div 6 = 5
+$$
+**函数**
+$$
+y=
+\begin{cases}
+x^2, & x>0,\\
+x^2 +x-8, & x \le 0
+\end{cases}
+$$
+**矩阵**
+$$
+\left(
+\begin{array}
+{ccc}
+1 & 2 & 3\\
+4 & 5 & 6\\
+7 & 8 & 9\\
+\end{array}
+\right)
+$$
+**化学方程式**
+$$
+\ce{2Mg + O2 ->[燃烧] 2 MgO}
+$$
+
+### 著名公式
+
+**欧拉等式**
+$$
+e^{i\pi} + 1 = 0
+$$
+**质能守恒公式**
+$$
+E = mc^2
+$$
+**万有引力公式**
+$$
+F=G \frac {m_{1}m_{2}}{R^{2}}
+$$
+**麦克斯韦方程组**
+$$
+\begin{array}{lll}
+\nabla\times E &=& -\;\frac{\partial{B}}{\partial{t}}   
+\ \nabla\times H &=& \frac{\partial{D}}{\partial{t}}+J   
+\ \nabla\cdot D &=& \rho
+\ \nabla\cdot B &=& 0
+\ \end{array}
+$$
+**薛定谔方程**
+$$
+i\hbar\frac{\partial \psi}{\partial t} = \frac{-\hbar^2}{2m} \left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2} \right) \psi + V \psi
+$$
