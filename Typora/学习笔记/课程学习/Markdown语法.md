@@ -112,53 +112,54 @@ end=>end: 处理结束
 start->info->setCache->end
 ```
 
-<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\bg_black&space;x^2&space;&plus;&space;2x&space;&plus;&space;5&space;&plus;&space;\sqrt&space;x&space;=&space;0" title="x^2 + 2x + 5 + \sqrt x = 0" />
-
 ## LaTeX语法
 
-输入$$再回车
-**方程**
+输入$$再回车  
+**方程**  
+```
 $$
-x^2 + 2x + 5 + \sqrt x = 0
+x^2 + 2x + 5 + \sqrt x = 0  
 $$
-**方程组**
-$$
+```
+<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\bg_black&space;x^2&space;&plus;&space;2x&space;&plus;&space;5&space;&plus;&space;\sqrt&space;x&space;=&space;0" title="x^2 + 2x + 5 + \sqrt x = 0" />  
+**方程组**  
+$$  
 \begin{cases}
 x+y+z=10\\
 x+2y+3z=20\\
 x+4y+5z=30
 \end{cases}
-$$
-**求和**
-$$
+$$  
+**求和**  
+$$  
 \sum_{i=1}^{n}
  \sum_{i=1}^nx_i
-$$
-**连乘**
-$$
+$$  
+**连乘**  
+$$  
 \prod\limits_{i=1}^n
-$$
-**分数**
-$$
+$$  
+**分数**  
+$$  
 \frac 1 5,
 \frac{x+1}{x^2}
-$$
-**乘除法**
-$$
+$$  
+**乘除法**  
+$$  
 5 \times 6 = 30\\
 5 \cdot 6 = 30\\
 30 \div 6 = 5
-$$
-**函数**
-$$
+$$  
+**函数**  
+$$  
 y=
 \begin{cases}
 x^2, & x>0,\\
 x^2 +x-8, & x \le 0
 \end{cases}
-$$
-**矩阵**
-$$
+$$  
+**矩阵**  
+$$  
 \left(
 \begin{array}
 {ccc}
@@ -167,15 +168,15 @@ $$
 7 & 8 & 9\\
 \end{array}
 \right)
-$$
-**化学方程式**
+$$  
+**化学方程式**  
 $$
 \ce{2Mg + O2 ->[燃烧] 2 MgO}
 $$
 
 ### 著名公式
 
-**欧拉等式**
+**欧拉等式**  
 $$
 e^{i\pi} + 1 = 0
 $$
