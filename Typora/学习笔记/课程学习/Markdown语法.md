@@ -112,6 +112,8 @@ end=>end: 处理结束
 start->info->setCache->end
 ```
 
+<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\bg_black&space;x^2&space;&plus;&space;2x&space;&plus;&space;5&space;&plus;&space;\sqrt&space;x&space;=&space;0" title="x^2 + 2x + 5 + \sqrt x = 0" />
+
 ## LaTeX语法
 
 输入$$再回车
